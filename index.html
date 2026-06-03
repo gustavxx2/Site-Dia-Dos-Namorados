@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Daisy ❤️</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+      CORAÇÕES
+========================= -->
+
+    <div id="hearts"></div>
+
+    <!-- =========================
+      CABEÇALHO
+========================= -->
+
+    <header class="hero">
+      <div class="hero-box">
+        <div class="linha"></div>
+
+        <h1>❤️ Feliz Dia dos Namorados ❤️</h1>
+
+        <p>
+          Uma surpresa feita especialmente para você <br />
+          De Felipe para Daisy
+        </p>
+      </div>
+    </header>
+
+    <!-- =========================
+      NOSSA HISTÓRIA
+========================= -->
+
+    <section class="bloco revelar">
+      <div class="historia-container">
+        <!-- FOTO -->
+
+        <div class="foto-area">
+          <img src="imagens/foto1.jpeg" />
+        </div>
+
+        <!-- TEXTO -->
+
+        <div class="texto-area">
+          <h2>Nossa história ❤️</h2>
+
+          <p>
+            Nossa história começou, por incrível que pareça, em um cinema, onde
+            a gente foi assistir a um filme dos Minions, e foi ali que a gente
+            começou a se aproximar. <br />Então, alguns dias depois, exatamente
+            no dia 09/08/2024, entre umas 19h e 21h da noite, mais ou menos, foi
+            onde eu dei a ideia de a gente começar a ter algo. E, a partir daí,
+            foram diversos momentos, diversas risadas, diversas brincadeiras,
+            que a cada dia ficaram melhores e melhores e que nunca vão parar.<br />
+            Outro momento especial também foi no primeiro dia que a gente saiu
+            junto, onde a gente tirou essa foto à esquerda da tela, uma
+            lembrança que guardo com muito carinho. Amo seu jeito, seu carinho e
+            sua companhia. Você torna meus dias mais alegres e felizes a cada
+            momento que a gente fica junto. ❤️
+          </p>
+
+          <div class="contador" aria-live="polite">
+            <div class="contador-grupo">
+              <div class="contador-item">
+                <div class="contador-num" id="contador-anos">0</div>
+                <div class="contador-label">anos</div>
+              </div>
+
+              <div class="contador-item">
+                <div class="contador-num" id="contador-meses">0</div>
+                <div class="contador-label">meses</div>
+              </div>
+
+              <div class="contador-item">
+                <div class="contador-num" id="contador-dias">0</div>
+                <div class="contador-label">dias</div>
+              </div>
+
+              <div class="contador-item">
+                <div class="contador-num" id="contador-minutos">00</div>
+                <div class="contador-label">minutos</div>
+              </div>
+
+              <div class="contador-item">
+                <div class="contador-num" id="contador-segundos">00</div>
+                <div class="contador-label">segundos</div>
+              </div>
+            </div>
+
+            <div class="contador-data">Desde 09/08/2024</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+      CARTA
+========================= -->
+
+    <section class="carta revelar bloco">
+      <div class="carta-wrapper">
+        <h2>Uma carta para você ❤️</h2>
+
+        <div
+          id="envelope"
+          onclick="toggleEnvelope()"
+          aria-label="Abrir/Fechar carta"
+        >
+          <div class="tampa"></div>
+
+          <div class="corpo-carta">
+            💌
+
+            <p>Clique para abrir</p>
+          </div>
+        </div>
+
+        <div id="mensagem">
+          <h2>Para meu amor ❤️</h2>
+
+          <p>
+            Meu amor, <br />
+            Se eu pudesse resumir o que sinto por você em lógica de programação,
+            diria que você é a variável constante que dá sentido a tudo no meu
+            código. Antes de você, tudo era só linhas soltas; depois de você,
+            minha vida virou um sistema bem estruturado, cheio de propósito.
+            Você é calma nos meus dias de erro, alegria nas minhas execuções
+            bem-sucedidas e a melhor parte de cada “loop” que a vida repete. Não
+            importa quantos problemas apareçam, eu sempre vou tentar debugar a
+            vida só pra continuar do seu lado. Se um dia o mundo der bug, eu só
+            preciso lembrar de você pra tudo voltar a funcionar. Te amo mais do
+            que qualquer linguagem consegue expressar.
+          </p>
+        </div>
+
+        <audio id="musica" loop>
+          <source src="musica.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </section>
+
+    <!-- =========================
+      MAIS LEMBRANÇAS
+========================= -->
+
+    <section class="bloco revelar">
+      <div class="lembrancas">
+        <!-- POLAROID -->
+
+        <div class="polaroid-scroll">
+          <img src="imagens/foto2.jpeg" />
+
+          <img src="imagens/foto3.jpeg" />
+
+          <img src="imagens/foto4.jpeg" />
+
+          <img src="imagens/foto5.jpeg" />
+        </div>
+
+        <!-- TEXTO -->
+
+        <div class="texto-lembrancas">
+          <h2>Mais lembranças ❤️</h2>
+
+          <p>
+            Aqui estão algumas das nossas primeiras viagens e momentos
+            especiais: desde o primeiro rodízio que a gente foi junto, passando
+            pela primeira vez que viajamos para a ilha, pelo nosso primeiro
+            Ano-Novo juntos e também pela nossa primeira viagem entre estados,
+            onde tivemos a oportunidade de conhecer Maceió e aracaju. ❤️
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+      FINAL
+========================= -->
+
+    <footer>❤️ Eu te amo infinitamente ❤️</footer>
+    <p>Desenvolvido por Felipe Oliveira</p>
+    <br /><br />
+    <p>todos direitos reservados copyright © 2026</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
